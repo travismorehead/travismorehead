@@ -1,0 +1,112 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre,
+a, img, var, ul, li,{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@import url("https://use.typekit.net/utx1lxb.css");
+
+html{
+  background-color: rgb(253,253,253);
+}
+
+.left{
+	margin-top: 35px;
+	margin-left: 32px;
+}
+
+.right{
+	float: right;
+	position: relative;
+	margin-top: -57px;
+	margin-right: 32px;
+}
+
+a{
+	font-family: nimbus-sans, helvetica, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: rgb(40,40,40);
+	text-decoration: none;
+}
+
+a:hover {
+  color: rgb(253,253,253);
+}
+
+.nocturnes{
+   display: grid;
+   align-items: center;
+   justify-content: center;
+	 padding-top: 92px;
+	 margin-left: 35px;
+	 margin-right: 35px;
+}
+
+img {
+	padding-bottom: 35px;
+	max-width: 100%;
+  height: auto;
+}
+
+.three {
+	align-self: center;
+  margin: 0 auto;
+}
+
+.eight{
+	align-self: center;
+  margin: 0 auto;
+}
+
+.fourteen{
+	align-self: center;
+  margin: 0 auto;
+}
+
+.fifteen{
+	align-self: center;
+  margin: 0 auto;
+}
+
+.sixteen{
+	align-self: center;
+  margin: 0 auto;
+}
+
+.seventeen{
+	position: relative;
+	margin-bottom: -5px;
+}
+
+@media only screen and (max-width: 640px) {
+
+	.left{
+		margin-top: 18px;
+		margin-left: 8px;
+	}
+
+	.right{
+		float: right;
+		position: relative;
+		margin-top: -57px;
+		margin-right: 8px;
+	}
+
+	.nocturnes{
+	   display: grid;
+	   align-items: center;
+	   justify-content: center;
+		 margin-left: 8px;
+		 margin-right: 8px;
+	}
+
+	img {
+		padding-bottom: 9px;
+	}
+}
